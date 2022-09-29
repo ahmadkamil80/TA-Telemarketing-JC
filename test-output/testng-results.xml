@@ -1,0 +1,2178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="0" failed="0" skipped="7">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-09T14:26:48 WIB" name="Default suite" finished-at="2022-08-09T14:26:49 WIB" duration-ms="425">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunnerMaster@4386f16]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-08-09T14:26:48 WIB" name="Default test" finished-at="2022-08-09T14:26:49 WIB" duration-ms="425">
+      <class name="runner.RunnerMaster">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:runner.RunnerMaster@4386f16]" started-at="2022-08-09T14:26:48 WIB" name="setUpClass" finished-at="2022-08-09T14:26:49 WIB" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunnerMaster@4386f16]" started-at="2022-08-09T14:26:49 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-09T14:26:49 WIB" duration-ms="66" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User verivikasi data new ke data agree"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Task"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[There were 17 undefined steps
+The step "user berada di halaman login "https://sqa.peluangkerjaku.com/tele/"" is undefined. You can implement it using the snippet(s) below:
+
+@Given("user berada di halaman login {string}")
+public void user_berada_di_halaman_login(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input username "agent01"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input username {string}")
+public void user_input_username(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input password "1"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input password {string}")
+public void user_input_password(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik sign in" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik sign in")
+public void user_klik_sign_in() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik ok" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik ok")
+public void user_klik_ok() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik task" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik task")
+public void user_klik_task() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik new" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik new")
+public void user_klik_new() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user mencari nama perusahaan di pencarian new "Toko lula"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user mencari nama perusahaan di pencarian new {string}")
+public void user_mencari_nama_perusahaan_di_pencarian_new(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik perusahaan yang sudah dicari" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik perusahaan yang sudah dicari")
+public void user_klik_perusahaan_yang_sudah_dicari() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input status activity channel "Call"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input status activity channel {string}")
+public void user_input_status_activity_channel(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input status activity status "Tersambung"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input status activity status {string}")
+public void user_input_status_activity_status(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input status activity status call "Diangkat"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input status activity status call {string}")
+public void user_input_status_activity_status_call(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input status activity status result "Setuju"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input status activity status result {string}")
+public void user_input_status_activity_status_result(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input status activity reason "Berhasil Download"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input status activity reason {string}")
+public void user_input_status_activity_reason(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik submit" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik submit")
+public void user_klik_submit() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik yes" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik yes")
+public void user_klik_yes() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "data perusahaan "Toko lula" masuk ke task agree" is undefined. You can implement it using the snippet(s) below:
+
+@Then("data perusahaan {string} masuk ke task agree")
+public void data_perusahaan_masuk_ke_task_agree(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: There were 17 undefined steps
+The step "user berada di halaman login "https://sqa.peluangkerjaku.com/tele/"" is undefined. You can implement it using the snippet(s) below:
+
+@Given("user berada di halaman login {string}")
+public void user_berada_di_halaman_login(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input username "agent01"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input username {string}")
+public void user_input_username(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input password "1"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input password {string}")
+public void user_input_password(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik sign in" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik sign in")
+public void user_klik_sign_in() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik ok" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik ok")
+public void user_klik_ok() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik task" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik task")
+public void user_klik_task() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik new" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik new")
+public void user_klik_new() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user mencari nama perusahaan di pencarian new "Toko lula"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user mencari nama perusahaan di pencarian new {string}")
+public void user_mencari_nama_perusahaan_di_pencarian_new(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik perusahaan yang sudah dicari" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik perusahaan yang sudah dicari")
+public void user_klik_perusahaan_yang_sudah_dicari() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input status activity channel "Call"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input status activity channel {string}")
+public void user_input_status_activity_channel(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input status activity status "Tersambung"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input status activity status {string}")
+public void user_input_status_activity_status(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input status activity status call "Diangkat"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input status activity status call {string}")
+public void user_input_status_activity_status_call(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input status activity status result "Setuju"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input status activity status result {string}")
+public void user_input_status_activity_status_result(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input status activity reason "Berhasil Download"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input status activity reason {string}")
+public void user_input_status_activity_reason(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik submit" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik submit")
+public void user_klik_submit() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik yes" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik yes")
+public void user_klik_yes() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "data perusahaan "Toko lula" masuk ke task agree" is undefined. You can implement it using the snippet(s) below:
+
+@Then("data perusahaan {string} masuk ke task agree")
+public void data_perusahaan_masuk_ke_task_agree(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:112)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:125)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:29)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunnerMaster@4386f16]" started-at="2022-08-09T14:26:49 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-09T14:26:49 WIB" duration-ms="13" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User verivikasi data new ke data all"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Task"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[There were 17 undefined steps
+The step "user berada di halaman login "https://sqa.peluangkerjaku.com/tele/"" is undefined. You can implement it using the snippet(s) below:
+
+@Given("user berada di halaman login {string}")
+public void user_berada_di_halaman_login(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input username "agent01"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input username {string}")
+public void user_input_username(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input password "1"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input password {string}")
+public void user_input_password(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik sign in" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik sign in")
+public void user_klik_sign_in() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik ok" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik ok")
+public void user_klik_ok() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik task" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik task")
+public void user_klik_task() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik new" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik new")
+public void user_klik_new() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user mencari nama perusahaan di pencarian new "Toko lula"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user mencari nama perusahaan di pencarian new {string}")
+public void user_mencari_nama_perusahaan_di_pencarian_new(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik perusahaan yang sudah dicari" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik perusahaan yang sudah dicari")
+public void user_klik_perusahaan_yang_sudah_dicari() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input status activity channel "Call"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input status activity channel {string}")
+public void user_input_status_activity_channel(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input status activity status "Tidak Tersambung"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input status activity status {string}")
+public void user_input_status_activity_status(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input status activity status call "Nomer Salah"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input status activity status call {string}")
+public void user_input_status_activity_status_call(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input status activity status result "Nomer Salah"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input status activity status result {string}")
+public void user_input_status_activity_status_result(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input status activity reason "Nomer Salah"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input status activity reason {string}")
+public void user_input_status_activity_reason(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik submit" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik submit")
+public void user_klik_submit() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik yes" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik yes")
+public void user_klik_yes() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "data perusahaan "Toko lula" masuk ke task data all dengan status result "Nomer Salah"" is undefined. You can implement it using the snippet(s) below:
+
+@Then("data perusahaan {string} masuk ke task data all dengan status result {string}")
+public void data_perusahaan_masuk_ke_task_data_all_dengan_status_result(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: There were 17 undefined steps
+The step "user berada di halaman login "https://sqa.peluangkerjaku.com/tele/"" is undefined. You can implement it using the snippet(s) below:
+
+@Given("user berada di halaman login {string}")
+public void user_berada_di_halaman_login(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input username "agent01"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input username {string}")
+public void user_input_username(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input password "1"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input password {string}")
+public void user_input_password(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik sign in" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik sign in")
+public void user_klik_sign_in() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik ok" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik ok")
+public void user_klik_ok() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik task" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik task")
+public void user_klik_task() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik new" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik new")
+public void user_klik_new() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user mencari nama perusahaan di pencarian new "Toko lula"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user mencari nama perusahaan di pencarian new {string}")
+public void user_mencari_nama_perusahaan_di_pencarian_new(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik perusahaan yang sudah dicari" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik perusahaan yang sudah dicari")
+public void user_klik_perusahaan_yang_sudah_dicari() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input status activity channel "Call"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input status activity channel {string}")
+public void user_input_status_activity_channel(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input status activity status "Tidak Tersambung"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input status activity status {string}")
+public void user_input_status_activity_status(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input status activity status call "Nomer Salah"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input status activity status call {string}")
+public void user_input_status_activity_status_call(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input status activity status result "Nomer Salah"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input status activity status result {string}")
+public void user_input_status_activity_status_result(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input status activity reason "Nomer Salah"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input status activity reason {string}")
+public void user_input_status_activity_reason(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik submit" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik submit")
+public void user_klik_submit() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik yes" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik yes")
+public void user_klik_yes() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "data perusahaan "Toko lula" masuk ke task data all dengan status result "Nomer Salah"" is undefined. You can implement it using the snippet(s) below:
+
+@Then("data perusahaan {string} masuk ke task data all dengan status result {string}")
+public void data_perusahaan_masuk_ke_task_data_all_dengan_status_result(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:112)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:125)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:29)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunnerMaster@4386f16]" started-at="2022-08-09T14:26:49 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-09T14:26:49 WIB" duration-ms="9" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User verivikasi data new ke follow up"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Task"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[There were 17 undefined steps
+The step "user berada di halaman login "https://sqa.peluangkerjaku.com/tele/"" is undefined. You can implement it using the snippet(s) below:
+
+@Given("user berada di halaman login {string}")
+public void user_berada_di_halaman_login(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input username "agent01"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input username {string}")
+public void user_input_username(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input password "1"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input password {string}")
+public void user_input_password(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik sign in" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik sign in")
+public void user_klik_sign_in() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik ok" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik ok")
+public void user_klik_ok() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik task" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik task")
+public void user_klik_task() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik new" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik new")
+public void user_klik_new() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user mencari nama perusahaan di pencarian new "Toko lula"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user mencari nama perusahaan di pencarian new {string}")
+public void user_mencari_nama_perusahaan_di_pencarian_new(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik perusahaan yang sudah dicari" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik perusahaan yang sudah dicari")
+public void user_klik_perusahaan_yang_sudah_dicari() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input status activity channel "Call"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input status activity channel {string}")
+public void user_input_status_activity_channel(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input status activity status "Tersambung"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input status activity status {string}")
+public void user_input_status_activity_status(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input status activity status call "Diangkat"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input status activity status call {string}")
+public void user_input_status_activity_status_call(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input status activity status result "Follow Up"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input status activity status result {string}")
+public void user_input_status_activity_status_result(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input status activity reason "Follow Up"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input status activity reason {string}")
+public void user_input_status_activity_reason(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik submit" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik submit")
+public void user_klik_submit() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik yes" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik yes")
+public void user_klik_yes() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "data perusahaan "Toko lula" masuk ke task follow up" is undefined. You can implement it using the snippet(s) below:
+
+@Then("data perusahaan {string} masuk ke task follow up")
+public void data_perusahaan_masuk_ke_task_follow_up(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: There were 17 undefined steps
+The step "user berada di halaman login "https://sqa.peluangkerjaku.com/tele/"" is undefined. You can implement it using the snippet(s) below:
+
+@Given("user berada di halaman login {string}")
+public void user_berada_di_halaman_login(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input username "agent01"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input username {string}")
+public void user_input_username(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input password "1"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input password {string}")
+public void user_input_password(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik sign in" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik sign in")
+public void user_klik_sign_in() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik ok" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik ok")
+public void user_klik_ok() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik task" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik task")
+public void user_klik_task() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik new" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik new")
+public void user_klik_new() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user mencari nama perusahaan di pencarian new "Toko lula"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user mencari nama perusahaan di pencarian new {string}")
+public void user_mencari_nama_perusahaan_di_pencarian_new(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik perusahaan yang sudah dicari" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik perusahaan yang sudah dicari")
+public void user_klik_perusahaan_yang_sudah_dicari() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input status activity channel "Call"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input status activity channel {string}")
+public void user_input_status_activity_channel(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input status activity status "Tersambung"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input status activity status {string}")
+public void user_input_status_activity_status(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input status activity status call "Diangkat"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input status activity status call {string}")
+public void user_input_status_activity_status_call(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input status activity status result "Follow Up"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input status activity status result {string}")
+public void user_input_status_activity_status_result(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input status activity reason "Follow Up"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input status activity reason {string}")
+public void user_input_status_activity_reason(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik submit" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik submit")
+public void user_klik_submit() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik yes" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik yes")
+public void user_klik_yes() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "data perusahaan "Toko lula" masuk ke task follow up" is undefined. You can implement it using the snippet(s) below:
+
+@Then("data perusahaan {string} masuk ke task follow up")
+public void data_perusahaan_masuk_ke_task_follow_up(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:112)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:125)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:29)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunnerMaster@4386f16]" started-at="2022-08-09T14:26:49 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-09T14:26:49 WIB" duration-ms="7" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User verivikasi data agree ke final dengan valid link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Task"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[There were 13 undefined steps
+The step "user berada di halaman login "https://sqa.peluangkerjaku.com/tele/"" is undefined. You can implement it using the snippet(s) below:
+
+@Given("user berada di halaman login {string}")
+public void user_berada_di_halaman_login(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input username "agent01"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input username {string}")
+public void user_input_username(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input password "1"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input password {string}")
+public void user_input_password(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik sign in" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik sign in")
+public void user_klik_sign_in() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik ok" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik ok")
+public void user_klik_ok() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik task" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik task")
+public void user_klik_task() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik agree" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik agree")
+public void user_klik_agree() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user mencari nama perusahaan di pencarian agree "dewatashopbali"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user mencari nama perusahaan di pencarian agree {string}")
+public void user_mencari_nama_perusahaan_di_pencarian_agree(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik perusahaan yang sudah dicari" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik perusahaan yang sudah dicari")
+public void user_klik_perusahaan_yang_sudah_dicari() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input status activity link "https://www.linktoko.com"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input status activity link {string}")
+public void user_input_status_activity_link(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik update" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik update")
+public void user_klik_update() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik ok" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik ok")
+public void user_klik_ok() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "data agree berhasil diupdate" is undefined. You can implement it using the snippet(s) below:
+
+@Then("data agree berhasil diupdate")
+public void data_agree_berhasil_diupdate() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: There were 13 undefined steps
+The step "user berada di halaman login "https://sqa.peluangkerjaku.com/tele/"" is undefined. You can implement it using the snippet(s) below:
+
+@Given("user berada di halaman login {string}")
+public void user_berada_di_halaman_login(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input username "agent01"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input username {string}")
+public void user_input_username(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input password "1"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input password {string}")
+public void user_input_password(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik sign in" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik sign in")
+public void user_klik_sign_in() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik ok" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik ok")
+public void user_klik_ok() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik task" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik task")
+public void user_klik_task() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik agree" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik agree")
+public void user_klik_agree() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user mencari nama perusahaan di pencarian agree "dewatashopbali"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user mencari nama perusahaan di pencarian agree {string}")
+public void user_mencari_nama_perusahaan_di_pencarian_agree(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik perusahaan yang sudah dicari" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik perusahaan yang sudah dicari")
+public void user_klik_perusahaan_yang_sudah_dicari() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input status activity link "https://www.linktoko.com"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input status activity link {string}")
+public void user_input_status_activity_link(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik update" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik update")
+public void user_klik_update() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik ok" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik ok")
+public void user_klik_ok() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "data agree berhasil diupdate" is undefined. You can implement it using the snippet(s) below:
+
+@Then("data agree berhasil diupdate")
+public void data_agree_berhasil_diupdate() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:112)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:125)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:29)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunnerMaster@4386f16]" started-at="2022-08-09T14:26:49 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-09T14:26:49 WIB" duration-ms="5" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User verivikasi data agree ke final dengan random value link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Task"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[There were 13 undefined steps
+The step "user berada di halaman login "https://sqa.peluangkerjaku.com/tele/"" is undefined. You can implement it using the snippet(s) below:
+
+@Given("user berada di halaman login {string}")
+public void user_berada_di_halaman_login(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input username "agent01"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input username {string}")
+public void user_input_username(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input password "1"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input password {string}")
+public void user_input_password(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik sign in" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik sign in")
+public void user_klik_sign_in() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik ok" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik ok")
+public void user_klik_ok() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik task" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik task")
+public void user_klik_task() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik agree" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik agree")
+public void user_klik_agree() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user mencari nama perusahaan di pencarian agree "dewatashopbali"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user mencari nama perusahaan di pencarian agree {string}")
+public void user_mencari_nama_perusahaan_di_pencarian_agree(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik perusahaan yang sudah dicari" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik perusahaan yang sudah dicari")
+public void user_klik_perusahaan_yang_sudah_dicari() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input status activity link "5125123"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input status activity link {string}")
+public void user_input_status_activity_link(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik update" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik update")
+public void user_klik_update() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik ok" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik ok")
+public void user_klik_ok() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "data agree gagal update ke final" is undefined. You can implement it using the snippet(s) below:
+
+@Then("data agree gagal update ke final")
+public void data_agree_gagal_update_ke_final() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: There were 13 undefined steps
+The step "user berada di halaman login "https://sqa.peluangkerjaku.com/tele/"" is undefined. You can implement it using the snippet(s) below:
+
+@Given("user berada di halaman login {string}")
+public void user_berada_di_halaman_login(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input username "agent01"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input username {string}")
+public void user_input_username(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input password "1"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input password {string}")
+public void user_input_password(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik sign in" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik sign in")
+public void user_klik_sign_in() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik ok" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik ok")
+public void user_klik_ok() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik task" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik task")
+public void user_klik_task() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik agree" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik agree")
+public void user_klik_agree() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user mencari nama perusahaan di pencarian agree "dewatashopbali"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user mencari nama perusahaan di pencarian agree {string}")
+public void user_mencari_nama_perusahaan_di_pencarian_agree(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik perusahaan yang sudah dicari" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik perusahaan yang sudah dicari")
+public void user_klik_perusahaan_yang_sudah_dicari() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input status activity link "5125123"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input status activity link {string}")
+public void user_input_status_activity_link(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik update" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik update")
+public void user_klik_update() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik ok" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik ok")
+public void user_klik_ok() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "data agree gagal update ke final" is undefined. You can implement it using the snippet(s) below:
+
+@Then("data agree gagal update ke final")
+public void data_agree_gagal_update_ke_final() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:112)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:125)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:29)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunnerMaster@4386f16]" started-at="2022-08-09T14:26:49 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-09T14:26:49 WIB" duration-ms="6" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User verivikasi data follow up ke data agree"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Task"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[There were 17 undefined steps
+The step "user berada di halaman login "https://sqa.peluangkerjaku.com/tele/"" is undefined. You can implement it using the snippet(s) below:
+
+@Given("user berada di halaman login {string}")
+public void user_berada_di_halaman_login(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input username "agent01"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input username {string}")
+public void user_input_username(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input password "1"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input password {string}")
+public void user_input_password(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik sign in" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik sign in")
+public void user_klik_sign_in() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik ok" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik ok")
+public void user_klik_ok() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik task" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik task")
+public void user_klik_task() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik follow up" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik follow up")
+public void user_klik_follow_up() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user mencari nama perusahaan di pencarian follow up "Toko lula"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user mencari nama perusahaan di pencarian follow up {string}")
+public void user_mencari_nama_perusahaan_di_pencarian_follow_up(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik perusahaan yang sudah dicari" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik perusahaan yang sudah dicari")
+public void user_klik_perusahaan_yang_sudah_dicari() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input status activity channel "Call"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input status activity channel {string}")
+public void user_input_status_activity_channel(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input status activity status "Tersambung"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input status activity status {string}")
+public void user_input_status_activity_status(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input status activity status call "Diangkat"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input status activity status call {string}")
+public void user_input_status_activity_status_call(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input status activity status result "Setuju"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input status activity status result {string}")
+public void user_input_status_activity_status_result(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input status activity reason "Berhasil Download"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input status activity reason {string}")
+public void user_input_status_activity_reason(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik submit" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik submit")
+public void user_klik_submit() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik yes" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik yes")
+public void user_klik_yes() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "data perusahaan "Toko lula" masuk ke task agree" is undefined. You can implement it using the snippet(s) below:
+
+@Then("data perusahaan {string} masuk ke task agree")
+public void data_perusahaan_masuk_ke_task_agree(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: There were 17 undefined steps
+The step "user berada di halaman login "https://sqa.peluangkerjaku.com/tele/"" is undefined. You can implement it using the snippet(s) below:
+
+@Given("user berada di halaman login {string}")
+public void user_berada_di_halaman_login(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input username "agent01"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input username {string}")
+public void user_input_username(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input password "1"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input password {string}")
+public void user_input_password(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik sign in" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik sign in")
+public void user_klik_sign_in() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik ok" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik ok")
+public void user_klik_ok() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik task" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik task")
+public void user_klik_task() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik follow up" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik follow up")
+public void user_klik_follow_up() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user mencari nama perusahaan di pencarian follow up "Toko lula"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user mencari nama perusahaan di pencarian follow up {string}")
+public void user_mencari_nama_perusahaan_di_pencarian_follow_up(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik perusahaan yang sudah dicari" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik perusahaan yang sudah dicari")
+public void user_klik_perusahaan_yang_sudah_dicari() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input status activity channel "Call"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input status activity channel {string}")
+public void user_input_status_activity_channel(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input status activity status "Tersambung"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input status activity status {string}")
+public void user_input_status_activity_status(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input status activity status call "Diangkat"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input status activity status call {string}")
+public void user_input_status_activity_status_call(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input status activity status result "Setuju"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input status activity status result {string}")
+public void user_input_status_activity_status_result(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input status activity reason "Berhasil Download"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input status activity reason {string}")
+public void user_input_status_activity_reason(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik submit" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik submit")
+public void user_klik_submit() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik yes" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik yes")
+public void user_klik_yes() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "data perusahaan "Toko lula" masuk ke task agree" is undefined. You can implement it using the snippet(s) below:
+
+@Then("data perusahaan {string} masuk ke task agree")
+public void data_perusahaan_masuk_ke_task_agree(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:112)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:125)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:29)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunnerMaster@4386f16]" started-at="2022-08-09T14:26:49 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-09T14:26:49 WIB" duration-ms="6" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User verivikasi data follow up ke data all"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Task"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[There were 17 undefined steps
+The step "user berada di halaman login "https://sqa.peluangkerjaku.com/tele/"" is undefined. You can implement it using the snippet(s) below:
+
+@Given("user berada di halaman login {string}")
+public void user_berada_di_halaman_login(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input username "agent01"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input username {string}")
+public void user_input_username(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input password "1"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input password {string}")
+public void user_input_password(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik sign in" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik sign in")
+public void user_klik_sign_in() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik ok" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik ok")
+public void user_klik_ok() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik task" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik task")
+public void user_klik_task() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik follow up" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik follow up")
+public void user_klik_follow_up() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user mencari nama perusahaan di pencarian follow up "Toko lula"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user mencari nama perusahaan di pencarian follow up {string}")
+public void user_mencari_nama_perusahaan_di_pencarian_follow_up(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik perusahaan yang sudah dicari" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik perusahaan yang sudah dicari")
+public void user_klik_perusahaan_yang_sudah_dicari() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input status activity channel "Call"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input status activity channel {string}")
+public void user_input_status_activity_channel(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input status activity status "Tidak Tersambung"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input status activity status {string}")
+public void user_input_status_activity_status(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input status activity status call "Nomer Salah"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input status activity status call {string}")
+public void user_input_status_activity_status_call(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input status activity status result "Nomer Salah"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input status activity status result {string}")
+public void user_input_status_activity_status_result(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input status activity reason "Nomer Salah"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input status activity reason {string}")
+public void user_input_status_activity_reason(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik submit" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik submit")
+public void user_klik_submit() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik yes" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik yes")
+public void user_klik_yes() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "data perusahaan "Toko lula" masuk ke task data all dengan status result "Nomer Salah"" is undefined. You can implement it using the snippet(s) below:
+
+@Then("data perusahaan {string} masuk ke task data all dengan status result {string}")
+public void data_perusahaan_masuk_ke_task_data_all_dengan_status_result(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: There were 17 undefined steps
+The step "user berada di halaman login "https://sqa.peluangkerjaku.com/tele/"" is undefined. You can implement it using the snippet(s) below:
+
+@Given("user berada di halaman login {string}")
+public void user_berada_di_halaman_login(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input username "agent01"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input username {string}")
+public void user_input_username(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input password "1"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input password {string}")
+public void user_input_password(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik sign in" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik sign in")
+public void user_klik_sign_in() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik ok" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik ok")
+public void user_klik_ok() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik task" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik task")
+public void user_klik_task() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik follow up" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik follow up")
+public void user_klik_follow_up() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user mencari nama perusahaan di pencarian follow up "Toko lula"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user mencari nama perusahaan di pencarian follow up {string}")
+public void user_mencari_nama_perusahaan_di_pencarian_follow_up(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik perusahaan yang sudah dicari" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik perusahaan yang sudah dicari")
+public void user_klik_perusahaan_yang_sudah_dicari() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input status activity channel "Call"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input status activity channel {string}")
+public void user_input_status_activity_channel(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input status activity status "Tidak Tersambung"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input status activity status {string}")
+public void user_input_status_activity_status(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input status activity status call "Nomer Salah"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input status activity status call {string}")
+public void user_input_status_activity_status_call(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input status activity status result "Nomer Salah"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input status activity status result {string}")
+public void user_input_status_activity_status_result(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user input status activity reason "Nomer Salah"" is undefined. You can implement it using the snippet(s) below:
+
+@When("user input status activity reason {string}")
+public void user_input_status_activity_reason(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik submit" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik submit")
+public void user_klik_submit() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "user klik yes" is undefined. You can implement it using the snippet(s) below:
+
+@When("user klik yes")
+public void user_klik_yes() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+The step "data perusahaan "Toko lula" masuk ke task data all dengan status result "Nomer Salah"" is undefined. You can implement it using the snippet(s) below:
+
+@Then("data perusahaan {string} masuk ke task data all dengan status result {string}")
+public void data_perusahaan_masuk_ke_task_data_all_dengan_status_result(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:112)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:125)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:29)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.RunnerMaster@4386f16]" started-at="2022-08-09T14:26:49 WIB" name="tearDownClass" finished-at="2022-08-09T14:26:49 WIB" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.RunnerMaster -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
